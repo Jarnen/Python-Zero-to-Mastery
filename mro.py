@@ -8,7 +8,7 @@ class B:
         print('B process()')
 
 
-class C(A, B):
+class C(B, A):
     print('C process')
 
 
