@@ -1,3 +1,4 @@
+# method resolution order with multiple inheritance
 class A:
     def process(self):
         print('A process()')
